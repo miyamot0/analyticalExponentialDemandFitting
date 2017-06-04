@@ -118,7 +118,7 @@ plot(pricePoints,
      xlab = "Unit Price",
      ylab = "Consumption",
      main = paste("Analytically solved and scaled LM for Exponential Demand\n", 
-                  "Q0:", round(exp(fit$par[1]), 5),
+                  "Q0:", round(fit$par[1], 5),
                   "  alpha:", round(fit$par[2], 8),
                   "  K:", round(fit$par[3], 5),
                   sep = " "))
